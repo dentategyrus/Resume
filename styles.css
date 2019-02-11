@@ -10,6 +10,8 @@ html {
   background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cloud_sky_over_Brest.jpg)
     no-repeat center top;
   background-size: cover;
+  margin:0.5rem;
+  height: 13rem;
 }
 
 .flex-container > div {
@@ -18,10 +20,12 @@ html {
   height: 30rem;
 }
 
+
 /*style four sections*/
 .top-left-box {
   width: calc(50% - 1rem);
   float: left;
+  position: relative;
 }
 .top-right-box {
   width: calc(50% - 1rem);
@@ -34,9 +38,4 @@ html {
 .bottom-right-box {
   width: calc(50% - 1rem);
   float: right;
-}
-
-.h3 {
-  position: absolute;
-  color: whitesmoke;
 }
