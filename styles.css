@@ -1,0 +1,32 @@
+
+
+body,
+html {
+	font-size: 100%;
+	font-family: Consolas; 
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-color: rgb(71, 67, 67);
+}
+
+.header {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cloud_sky_over_Brest.jpg) no-repeat center top;
+  background-size: cover;
+  }
+  
+
+.flex-container {
+	display: flex;
+	background-color: rgb(58, 93, 129);
+	flex-flow: row wrap;
+  }
+  
+  .flex-container > div {
+	background-color: #f1f1f1;
+	margin: 0.5rem;
+	text-align: center;
+  }
+
+/*style four sections*/
+.top-left-box {font-size:1rem; }
