@@ -20,7 +20,6 @@ html {
   height: 30rem;
 }
 
-
 /*style four sections*/
 .top-left-box {
   width: calc(50% - 1rem);
@@ -39,3 +38,5 @@ html {
   width: calc(50% - 1rem);
   float: right;
 }
+
+p{color:whitesmoke; text-indent: 1rem; padding: 1rem;}
