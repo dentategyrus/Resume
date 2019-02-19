@@ -10,8 +10,10 @@ html {
   background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cloud_sky_over_Brest.jpg)
     no-repeat center top;
   background-size: cover;
-  margin:0.5rem;
+  margin: 0.5rem;
   height: 13rem;
+  padding: 0.5rem;
+  color: antiquewhite;
 }
 
 .flex-container > div {
@@ -21,6 +23,29 @@ html {
 }
 
 /*style four sections*/
+.toggle-text {
+  background: none;
+  color: whitesmoke;
+  margin: 0.5rem;
+  transition-duration: 1s;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.toggle-text {
+  content: "";
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 3s;
+}
+
+.toggle-text {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
 .top-left-box {
   width: calc(50% - 1rem);
   float: left;
@@ -38,5 +63,8 @@ html {
   width: calc(50% - 1rem);
   float: right;
 }
-
-p{color:whitesmoke; text-indent: 1rem; padding: 1rem;}
+p {
+  color: whitesmoke;
+  text-indent: 1rem;
+  padding: 1rem;
+}
