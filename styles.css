@@ -27,23 +27,7 @@ html {
   background: none;
   color: whitesmoke;
   margin: 0.5rem;
-  transition-duration: 1s;
-  text-decoration: none;
-  overflow: hidden;
-}
-
-.toggle-text {
-  content: "";
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 3s;
-}
-
-.toggle-text {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s;
+  
 }
 
 .top-left-box {
