@@ -27,18 +27,17 @@ html {
   color: whitesmoke;
   padding: 2rem;
   font-size: 3rem;
-  position: absolute;
+ 
   border-style: none;
-}
-.toggle-text:hover {
-  color: black;
 }
 
 /*style four sections*/
+.ul{ position: absolute;}
 .top-left-box {
   width: calc(50% - 1rem);
   float: left;
 }
+.top-left-p{position:relative;}
 
 .top-right-box {
   width: calc(50% - 1rem);
