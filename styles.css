@@ -26,7 +26,9 @@ html {
 .toggle-text {
   background: none;
   color: whitesmoke;
-  margin: 0.5rem;
+  padding: 2rem;
+  font-size: 3rem;
+  position: absolute
   
 }
 
@@ -34,6 +36,7 @@ html {
   width: calc(50% - 1rem);
   float: left;
   position: relative;
+  
 }
 .top-right-box {
   width: calc(50% - 1rem);
