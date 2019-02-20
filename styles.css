@@ -27,17 +27,35 @@ html {
   color: whitesmoke;
   padding: 2rem;
   font-size: 3rem;
- 
   border-style: none;
+  position: absolute;
+}
+
+/*style first box*/
+.top-left-box-first {
+  font-size: 3rem;
+  color: whitesmoke;
+  margin: 0.5rem;
+  height: auto;
+  padding: 0.5rem;
+  background-color: #201e1e;
+}
+.intro-animation {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.ul li {
+  transition: 0.9s;
 }
 
 /*style four sections*/
-.ul{ position: absolute;}
 .top-left-box {
   width: calc(50% - 1rem);
   float: left;
 }
-.top-left-p{position:relative;}
 
 .top-right-box {
   width: calc(50% - 1rem);
