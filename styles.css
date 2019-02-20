@@ -8,7 +8,7 @@ html {
 
 .header {
   background: url(https://upload.wikimedia.org/wikipedia/commons/0/06/Cloud_sky_over_Brest.jpg)
-    no-repeat center top;
+  no-repeat center top;
   background-size: cover;
   margin: 0.5rem;
   height: 13rem;
@@ -22,16 +22,17 @@ html {
   height: 30rem;
 }
 
-/*style four sections*/
 .toggle-text {
   background: none;
   color: whitesmoke;
   padding: 2rem;
   font-size: 3rem;
-  position: absolute
+  position: absolute;
+  border-style: none;
+ 
   
 }
-
+/*style four sections*/
 .top-left-box {
   width: calc(50% - 1rem);
   float: left;
@@ -51,7 +52,8 @@ html {
   float: right;
 }
 p {
-  color: whitesmoke;
+  color: rgba(76, 192, 238, 0.603);
   text-indent: 1rem;
   padding: 1rem;
+  
 }
