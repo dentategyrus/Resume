@@ -36,20 +36,24 @@ html {
   font-size: 3rem;
   color: whitesmoke;
   margin: 0.5rem;
-  height: auto;
   padding: 0.5rem;
-  background-color: #201e1e;
+  list-style: none;
 }
-.intro-animation {
+.animation{list-style: none;}
+.ul {
   position: relative;
   margin: 0;
   padding: 0;
   transform: translateY(-50%) translateX(-50%);
+  display: inline-block;
+  position: absolute;
 }
 
 .ul li {
-  transition: 0.9s;
+  list-style: none;
+  transition: .9s;
 }
+ul:hover li{transform: rotateY(360deg); }
 
 /*style four sections*/
 .top-left-box {
