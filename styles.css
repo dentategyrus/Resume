@@ -39,23 +39,28 @@ html {
   padding: 0.5rem;
   list-style: none;
 }
-.animation{list-style: none;}
-.ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  transform: translateY(-50%) translateX(-50%);
-  display: inline-block;
-  position: absolute;
+
+.intro-animation {
+  color: whitesmoke;
+  list-style-type: none;
 }
 
-.ul li {
-  list-style: none;
-  transition: .9s;
+.ul {
+  position: absolute;
+  transform: translateY(-50%) translateX(-50%);
+  
 }
-ul:hover li{transform: rotateY(360deg); }
+ 
+.ul li {
+  
+  transition: 0.9s;
+}
+ul:hover li {
+  transform: rotateY(360deg);
+}/*  */
 
 /*style four sections*/
+
 .top-left-box {
   width: calc(50% - 1rem);
   float: left;
