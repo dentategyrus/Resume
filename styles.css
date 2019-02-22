@@ -19,7 +19,7 @@ html {
 .flex-container > div {
   background-color: #201e1e;
   margin: 0.5rem;
-  height: 30rem;/* remove the height for a different layout*/
+/*height: 30rem;/* remove the height for a different layout*/
   display: flex;
 }
 
@@ -27,15 +27,14 @@ html {
   background: none;
   color: whitesmoke;
   width: calc(50% - 1rem);
-  height: 77%;
+  height: 100%;
   font-size: 2rem;
   border-style: none;
-  text-decoration: underline dotted;
+  text-decoration: underline overline;
+  text-decoration-color: rgb(4, 58, 102);
   outline: none; /*removes buttons outline*/
-}
-  /*position: absolute;*/ /* add the abbsolute position center the button*/
-  input[type="reset"]:focus{
-    outline: none;   
+  /*position: absolute;  /* add the abbsolute position center the button*/
+
 }
 
 .toggle-text:not(:hover) {
@@ -71,3 +70,25 @@ p {
   padding: 1rem;
   position: inherit;
 }
+
+/*footer style*/
+
+.footer {
+  width: 1000px;
+  background-color: #333;
+  position: block;
+ }
+
+.footer a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline overline;
+  text-decoration-color:  rgb(4, 58, 102);
+  font-size: 13px;}
+
+.footer a:hover{
+  background: #ddd;
+  color: black;}
