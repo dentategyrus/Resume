@@ -21,24 +21,21 @@ html {
   margin: 0.5rem;
   height: 30rem;
   display: flex;
-  
 }
 
 .toggle-text {
   background: none;
   color: whitesmoke;
   width: calc(50% - 1rem);
-  height: 77%;
+  height: 52%;
   font-size: 3rem;
   border-style: none;
   position: absolute;
-  overflow: hidden;
 }
+
 .toggle-text:hover {
-  
-  transition:  3s;
+  transition: 3s;
   transform: rotateY(360deg);
-  
 }
 
 /*style four sections*/
@@ -66,6 +63,6 @@ html {
 p {
   color: rgba(207, 227, 235, 0.603);
   text-indent: 1rem;
-  padding: 1rem; 
+  padding: 1rem;
   position: inherit;
 }

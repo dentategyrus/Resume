@@ -66,6 +66,7 @@
             <h1>Sky</h1>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./index.js"></script>
 </body>
 
@@ -83,7 +84,7 @@
       function myFunction() {
         var x = document.getElementById("top-right-p");
         if (x.style.display === "none") {
-          x.style.display = "block";
+          x.style.display = "absolute";
         } else {
           x.style.display = "none";
         }
@@ -93,7 +94,7 @@
       function myFunction() {
         var x = document.getElementById("bottom-left-p");
         if (x.style.display === "none") {
-          x.style.display = "block";
+          x.style.display = "labsolute";
         } else {
           x.style.display = "none";
         }
@@ -103,13 +104,19 @@
       function myFunction() {
         var x = document.getElementById("bottom-right-p");
         if (x.style.display === "none") {
-          x.style.display = "block";
+          x.style.display = "absolute";
         } else {
           x.style.display = "none";
         }
       }
     </script>
-
+<script>
+  $(document).ready(function(){
+    $("top-left-box").click(function(){
+      $("top-left-p").toggle();
+    });
+  });
+  </script>
   </body>
  
 </html>
