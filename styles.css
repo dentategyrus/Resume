@@ -31,9 +31,10 @@ html {
   font-size: 3rem;
   border-style: none;
   position: absolute;
+  text-decoration: underline;
 }
 
-.toggle-text:hover {
+.toggle-text:not(:hover) {
   transition: 3s;
   transform: rotateY(360deg);
 }
