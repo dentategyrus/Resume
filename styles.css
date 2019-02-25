@@ -43,12 +43,12 @@ html {
 
 /*style four sections*/
 
-.top-left-box {
+.intro-container {
   width: calc(50% - 1rem);
   float: left;
 }
 
-.top-right-box {
+.aboutme-container {
   width: calc(50% - 1rem);
   float: right;
 }
