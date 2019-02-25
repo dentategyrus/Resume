@@ -53,12 +53,12 @@ html {
   float: right;
 }
 
-.bottom-left-box {
+.myportfolio-container {
   width: calc(50% - 1rem);
   float: left;
 }
 
-.bottom-right-box {
+.contact-container {
   width: calc(50% - 1rem);
   float: right;
 }
