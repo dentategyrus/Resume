@@ -19,7 +19,7 @@ html {
 .flex-container > div {
   background-color: #201e1e;
   margin: 0.5rem;
-  /*height: 30rem;/* remove the height for a different layout*/
+  height: 30rem;/* remove the height for a different layout*/
   display: flex;
 }
 
@@ -83,7 +83,7 @@ p {
   color: rgba(207, 227, 235, 0.603);
   text-decoration: underline overline;
   text-decoration-color: rgb(4, 58, 102);
-  
+
   display: flex;
   justify-content: center;
   padding-top: 2rem
