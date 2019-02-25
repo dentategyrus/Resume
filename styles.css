@@ -76,7 +76,18 @@ p {
   background-color: #333;
   display: inline-block;
   font-size: inherit;
-  position: bottom;
+  height: 3rem;
+  width: 100%;
+  padding: 0.6rem;
+  background-color: #201e1e;
+  color: rgba(207, 227, 235, 0.603);
+  text-decoration: underline overline;
+  text-decoration-color: rgb(4, 58, 102);
+  
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem
+
 }
 .footer a {
   color: antiquewhite;
