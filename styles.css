@@ -41,7 +41,7 @@ html {
   transform: scale3d(0.6, 0.6, -0.3);
 }
 
-/*style four sections*/
+/*style four sections and content*/
 
 .intro-container {
   width: calc(50% - 1rem);
@@ -70,7 +70,11 @@ p {
   position: inherit;
   overflow: hidden;
 }
-
+a{color: inherit;}
+a:hover, a:active {
+  background: #ddd;
+  color: black;
+}
 /*footer style*/
 
 .footer {
