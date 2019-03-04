@@ -68,7 +68,7 @@ p {
  
   padding: 1rem;
   position: inherit;
-  overflow: hidden;
+  overflow: auto;
 }
 a{color: inherit;}
 
@@ -77,7 +77,7 @@ a:hover, a:active {
   color: black;
 }
 
-
+.scrollbar{color:red;}
 /*footer style*/
 
 .footer {
