@@ -65,16 +65,19 @@ html {
 
 p {
   color: rgba(207, 227, 235, 0.603);
-  text-indent: 1rem;
+ 
   padding: 1rem;
   position: inherit;
   overflow: hidden;
 }
 a{color: inherit;}
+
 a:hover, a:active {
   background: #ddd;
   color: black;
 }
+
+
 /*footer style*/
 
 .footer {
