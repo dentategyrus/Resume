@@ -68,6 +68,7 @@ p {
   text-indent: 1rem;
   padding: 1rem;
   position: inherit;
+  overflow: hidden;
 }
 
 /*footer style*/
